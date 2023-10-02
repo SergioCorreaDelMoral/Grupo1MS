@@ -1,0 +1,13 @@
+com\ibm\products\model\ProductResponseModel.class
+com\ibm\products\ProductsApplication.class
+com\ibm\products\config\SpringConfig.class
+com\ibm\products\repository\ProductRepository.class
+com\ibm\products\model\ProductPostModel.class
+com\ibm\products\model\ProductPostModel$ProductPostModelBuilder.class
+com\ibm\products\model\ProductResponseModel$ProductResponseModelBuilder.class
+com\ibm\products\domain\Product.class
+com\ibm\products\service\impl\ProductServiceImpl.class
+com\ibm\products\controller\ProductController.class
+com\ibm\products\model\ProductPatchModel$ProductPatchModelBuilder.class
+com\ibm\products\model\ProductPatchModel.class
+com\ibm\products\service\ProductService.class

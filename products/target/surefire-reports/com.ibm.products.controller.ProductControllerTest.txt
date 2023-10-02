@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.ibm.products.controller.ProductControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.59 s <<< FAILURE! - in com.ibm.products.controller.ProductControllerTest
+testFindAll_shouldReturnOk  Time elapsed: 0.275 s  <<< ERROR!
+jakarta.servlet.ServletException: Handler dispatch failed: java.lang.NoSuchMethodError: org/json/JSONObject.put(Ljava/lang/String;Ljava/util/Collection;)Lorg/json/JSONObject; (loaded from file:/C:/Users/111147781/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar by jdk.internal.loader.ClassLoaders$AppClassLoader@be2d1de1) called from class com.ibm.products.service.impl.ProductServiceImpl (loaded from file:/C:/Users/111147781/Documents/Work/GiveBack/DemoWorkspace/products/target/classes/ by jdk.internal.loader.ClassLoaders$AppClassLoader@be2d1de1).
+	at com.ibm.products.controller.ProductControllerTest.testFindAll_shouldReturnOk(ProductControllerTest.java:25)
+Caused by: java.lang.NoSuchMethodError: org/json/JSONObject.put(Ljava/lang/String;Ljava/util/Collection;)Lorg/json/JSONObject; (loaded from file:/C:/Users/111147781/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar by jdk.internal.loader.ClassLoaders$AppClassLoader@be2d1de1) called from class com.ibm.products.service.impl.ProductServiceImpl (loaded from file:/C:/Users/111147781/Documents/Work/GiveBack/DemoWorkspace/products/target/classes/ by jdk.internal.loader.ClassLoaders$AppClassLoader@be2d1de1).
+	at com.ibm.products.controller.ProductControllerTest.testFindAll_shouldReturnOk(ProductControllerTest.java:25)
+
